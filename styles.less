@@ -1,0 +1,127 @@
+/*
+* Your Stylesheet
+*
+* This stylesheet is loaded when Atom starts up and is reloaded automatically
+* when it is changed and saved.
+*
+* Add your own CSS or Less to fully customize Atom.
+* If you are unfamiliar with Less, you can read more about it here:
+* http://lesscss.org
+*/
+
+
+/*
+* Examples
+* (To see them, uncomment and save)
+*/
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow expression
+atom-text-editor::shadow .cursor {
+  // border-color: red;
+}
+
+
+.theme-one-dark-ui {
+}
+
+atom-text-editor::shadow {
+  .line-number {
+    color: #FFFFFF;
+  }
+
+  .line-number.cursor-line {
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+
+// Markdown customization
+  .source.gfm {
+
+    .markup.heading {
+      color: white;
+      &.heading-1 {
+        font-size: 110%;
+      }
+      &.heading-2 {
+        font-size: 108%;
+      }
+      &.heading-3 {
+        font-size: 106%;
+      }
+      &.heading-4 {
+        font-size: 104%;
+      }
+      &.heading-5 {
+        font-size: 102%;
+      }
+      &.heading-6 {
+        font-size: 100%;
+      }
+    }
+
+    .markup.italic {
+      color: white;
+      font-style: italic;
+    }
+
+    .markup.bold {
+      color: white;
+      font-weight: bold;
+    }
+
+    .markup.raw {
+      color: white !important;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 105%;
+    }
+
+    .markup.code {
+      color: #FFFFFF !important;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 105%;
+      .keyword {
+        color: #F76060 !important;
+        font-weight: bold;
+      }
+      .modifier {
+        color: #F76060 !important;
+        font-weight: bold;
+      }
+      .method {
+        color: #FFFFFF !important;
+      }
+      .type {
+        color: #FFFFFF !important;
+      }
+      .operator {
+        color: #FFFFFF !important;
+      }
+      .string {
+        color: #00CAFD !important;
+      }
+      .numeric {
+        color: #00CAFD !important;
+      }
+    }
+
+    .source.sql {
+      color: white !important;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 105%;
+    }
+  }
+
+
+
+}
