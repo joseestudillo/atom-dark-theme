@@ -48,8 +48,32 @@ atom-text-editor::shadow {
 // Markdown customization
   .source.gfm {
 
+    color: #C1C1C1;
+
+    .entity {
+      color: #FFFF02;
+    }
+    .link {
+      color: #11FF95;
+    }
+    .punctuation {
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+    .support {
+      color: #FFFF02;
+      font-weight: bold;
+    }
+    .ordered.list {
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+    .unordered.list {
+      color: #FFFFFF;
+      font-weight: bold;
+    }
     .markup.heading {
-      color: white;
+      color: #FFFFFF;
       &.heading-1 {
         font-size: 110%;
       }
@@ -71,17 +95,17 @@ atom-text-editor::shadow {
     }
 
     .markup.italic {
-      color: white;
+      color: #FFFFFF;
       font-style: italic;
     }
 
     .markup.bold {
-      color: white;
+      color: #FFFFFF;
       font-weight: bold;
     }
 
     .markup.raw {
-      color: white !important;
+      color: #FFFFFF !important;
       font-family: "Courier New", Courier, monospace;
       font-size: 105%;
     }
@@ -116,7 +140,7 @@ atom-text-editor::shadow {
     }
 
     .source.sql {
-      color: white !important;
+      color: #FFFFFF !important;
       font-family: "Courier New", Courier, monospace;
       font-size: 105%;
     }
