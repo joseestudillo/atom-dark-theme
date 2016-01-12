@@ -26,4 +26,9 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 '.platform-darwin atom-text-editor':
+# eclipse shortcut to delete current line
   'cmd-d': 'editor:delete-line'
+# eclipse shortcut to uppercase selection
+  'shift-cmd-x': 'editor:upper-case'
+# eclipse shortcut to lowercase selection
+  'shift-cmd-y': 'editor:lower-case'
