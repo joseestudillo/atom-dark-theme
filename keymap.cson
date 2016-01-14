@@ -32,3 +32,7 @@
   'shift-cmd-x': 'editor:upper-case'
 # eclipse shortcut to lowercase selection
   'shift-cmd-y': 'editor:lower-case'
+# eclipse shortcut to move a line up
+  'alt-up': 'editor:move-line-up'
+# eclipse shortcut to move a line down`
+  'alt-down': 'editor:move-line-down'
